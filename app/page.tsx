@@ -5,7 +5,7 @@ import Particles from "../components/Particles";
 
 export default function Home() {
   return (
-    <main className="flex flex-col items-center justify-center min-h-screen animated-gradient p-10 relative overflow-hidden">
+    <main className="flex flex-col items-center justify-center min-h-[100dvh] max-h-[100dvh] h-[100dvh] animated-gradient p-10 relative overflow-hidden">
       {/* Partículas de Luz */}
       <Particles />
 
